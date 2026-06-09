@@ -26,25 +26,15 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Products",
-          id: "/products",
-        },
+          name: "Products",          id: "/products"},
         {
-          name: "Business",
-          id: "/business-console",
-        },
+          name: "Business",          id: "/business-console"},
         {
-          name: "About",
-          id: "/about",
-        },
+          name: "About",          id: "/about"},
         {
-          name: "Contact",
-          id: "/contact",
-        },
+          name: "Contact",          id: "/contact"},
       ]}
       brandName="ElectroMart"
     />
@@ -55,103 +45,40 @@ export default function LandingPage() {
       layout="page"
       products={[
         {
-          id: "cat1",
-          category: "Microcontrollers",
-          name: "High-Performance ARM Microcontroller",
-          price: "$59.99",
-          rating: 5,
-          reviewCount: "190 Reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-tiny-music-boxes-collection_23-2150545673.jpg",
-          imageAlt: "High-Performance ARM Microcontroller",
-        },
+          id: "cat1",          category: "Microcontrollers",          name: "High-Performance ARM Microcontroller",          price: "$59.99",          rating: 5,
+          reviewCount: "190 Reviews",          imageSrc: "http://img.b2bpic.net/free-photo/view-tiny-music-boxes-collection_23-2150545673.jpg",          imageAlt: "High-Performance ARM Microcontroller"},
         {
-          id: "cat2",
-          category: "Development Boards",
-          name: "ESP32 IoT Dev Kit",
-          price: "$29.50",
-          rating: 4,
-          reviewCount: "250 Reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/circuit-board-close-up-with-different-components_23-2149174340.jpg",
-          imageAlt: "ESP32 IoT Dev Kit",
-        },
+          id: "cat2",          category: "Development Boards",          name: "ESP32 IoT Dev Kit",          price: "$29.50",          rating: 4,
+          reviewCount: "250 Reviews",          imageSrc: "http://img.b2bpic.net/free-photo/circuit-board-close-up-with-different-components_23-2149174340.jpg",          imageAlt: "ESP32 IoT Dev Kit"},
         {
-          id: "cat3",
-          category: "Sensors",
-          name: "MEMS Accelerometer & Gyroscope",
-          price: "$15.00",
-          rating: 5,
-          reviewCount: "310 Reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/tech-background-close-up_23-2148882633.jpg",
-          imageAlt: "MEMS Accelerometer & Gyroscope",
-        },
+          id: "cat3",          category: "Sensors",          name: "MEMS Accelerometer & Gyroscope",          price: "$15.00",          rating: 5,
+          reviewCount: "310 Reviews",          imageSrc: "http://img.b2bpic.net/free-photo/tech-background-close-up_23-2148882633.jpg",          imageAlt: "MEMS Accelerometer & Gyroscope"},
         {
-          id: "cat4",
-          category: "Robotics",
-          name: "Precision DC Gear Motor",
-          price: "$45.00",
-          rating: 5,
-          reviewCount: "120 Reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/view-tiny-music-boxes-collection_23-2150545654.jpg",
-          imageAlt: "Precision DC Gear Motor",
-        },
+          id: "cat4",          category: "Robotics",          name: "Precision DC Gear Motor",          price: "$45.00",          rating: 5,
+          reviewCount: "120 Reviews",          imageSrc: "http://img.b2bpic.net/free-photo/view-tiny-music-boxes-collection_23-2150545654.jpg",          imageAlt: "Precision DC Gear Motor"},
         {
-          id: "cat5",
-          category: "IoT Devices",
-          name: "LoRaWAN Long-Range Module",
-          price: "$35.75",
-          rating: 4,
-          reviewCount: "88 Reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/isometric-view-3d-rendering-neon-city_23-2150900964.jpg",
-          imageAlt: "LoRaWAN Long-Range Module",
-        },
+          id: "cat5",          category: "IoT Devices",          name: "LoRaWAN Long-Range Module",          price: "$35.75",          rating: 4,
+          reviewCount: "88 Reviews",          imageSrc: "http://img.b2bpic.net/free-photo/isometric-view-3d-rendering-neon-city_23-2150900964.jpg",          imageAlt: "LoRaWAN Long-Range Module"},
         {
-          id: "cat6",
-          category: "Tools & Accessories",
-          name: "Professional Digital Multimeter",
-          price: "$89.99",
-          rating: 5,
-          reviewCount: "165 Reviews",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-storage-devices-pen_23-2149319340.jpg",
-          imageAlt: "Professional Digital Multimeter",
-        },
+          id: "cat6",          category: "Tools & Accessories",          name: "Professional Digital Multimeter",          price: "$89.99",          rating: 5,
+          reviewCount: "165 Reviews",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-storage-devices-pen_23-2149319340.jpg",          imageAlt: "Professional Digital Multimeter"},
       ]}
       searchPlaceholder="Search components or devices..."
       filters={[
         {
-          label: "Category",
-          options: [
-            "Microcontrollers",
-            "Development Boards",
-            "Sensors",
-            "Robotics",
-            "IoT Devices",
-            "Tools & Accessories",
-          ],
-          selected: "All",
-          onChange: "(value) => console.log(value)",
+          label: "Category",          options: [
+            "Microcontrollers",            "Development Boards",            "Sensors",            "Robotics",            "IoT Devices",            "Tools & Accessories"],
+          selected: "All",          onChange: (value) => console.log(value),
         },
         {
-          label: "Brand",
-          options: [
-            "TechCore",
-            "SenseFlow",
-            "RoboMech",
-            "AetherAI",
-            "CircuitCraft",
-            "DataFlux",
-          ],
-          selected: "All",
-          onChange: "(value) => console.log(value)",
+          label: "Brand",          options: [
+            "TechCore",            "SenseFlow",            "RoboMech",            "AetherAI",            "CircuitCraft",            "DataFlux"],
+          selected: "All",          onChange: (value) => console.log(value),
         },
         {
-          label: "Price Range",
-          options: [
-            "Under $50",
-            "$50 - $200",
-            "Over $200",
-          ],
-          selected: "All",
-          onChange: "(value) => console.log(value)",
+          label: "Price Range",          options: [
+            "Under $50",            "$50 - $200",            "Over $200"],
+          selected: "All",          onChange: (value) => console.log(value),
         },
       ]}
     />
@@ -163,25 +90,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "faq1",
-          title: "What payment methods do you accept?",
-          content: "We accept major credit cards (Visa, MasterCard, Amex), PayPal, and various local payment gateways for your convenience.",
-        },
+          id: "faq1",          title: "What payment methods do you accept?",          content: "We accept major credit cards (Visa, MasterCard, Amex), PayPal, and various local payment gateways for your convenience."},
         {
-          id: "faq2",
-          title: "How do I track my order?",
-          content: "Once your order is shipped, you will receive an email with a tracking number and a link to monitor its progress. You can also track it from your 'Order History' in your account.",
-        },
+          id: "faq2",          title: "How do I track my order?",          content: "Once your order is shipped, you will receive an email with a tracking number and a link to monitor its progress. You can also track it from your 'Order History' in your account."},
         {
-          id: "faq3",
-          title: "Do you offer international shipping?",
-          content: "Yes, we offer worldwide shipping. Shipping costs and delivery times vary by destination and will be calculated at checkout.",
-        },
+          id: "faq3",          title: "Do you offer international shipping?",          content: "Yes, we offer worldwide shipping. Shipping costs and delivery times vary by destination and will be calculated at checkout."},
         {
-          id: "faq4",
-          title: "What is your return policy?",
-          content: "We offer a 30-day return policy for most products, provided they are in their original condition. Please refer to our full Return Policy page for more details.",
-        },
+          id: "faq4",          title: "What is your return policy?",          content: "We offer a 30-day return policy for most products, provided they are in their original condition. Please refer to our full Return Policy page for more details."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/representation-user-experience-interface-design_23-2150169865.jpg"
       imageAlt="Customer support interface with chatbot"
@@ -196,13 +111,9 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoText="ElectroMart"
       leftLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
+        text: "Privacy Policy",        href: "#"}}
       rightLink={{
-        text: "Terms of Service",
-        href: "#",
-      }}
+        text: "Terms of Service",        href: "#"}}
     />
   </div>
       </ReactLenis>
